@@ -1,0 +1,1371 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": [
+          "hi",
+          "hello",
+          "Hello",
+          "hemluuu",
+          "Hemluuu",
+          "Hello how are you!!",
+          "heeeya",
+          "How you doing!!"
+        ],
+        "responses": [
+          "Hello<br> How are you?"
+        ]
+      },
+      {
+        "tag":"feel_good",
+        "patterns":[
+          "I am Fine",
+          "I am very happy",
+          "I am okay",
+          "I am Feeling wonderfull"
+        ],
+        "responses":[
+          "Nice.<br>Now tell me about your Sleep cycle .",
+          "Wonderfull<br>Now tell me about your Sleep cycle . ",
+          "Good<br>Now tell me about your Sleep cycle"
+        ]
+      },
+      {
+        "tag":"feel_bad",
+        "patterns":[
+          "Not feeling well",
+          "Not well",
+          "I am not feeling good",
+          "I am not fine",
+          "Feeling very down",
+          "Feeling distressed"
+        ],
+        "responses":[
+          "Sad to hear that<br>Are you over sleeping or are you sleeping less ?"
+        ]
+      },
+      {
+        "tag":"insomnia",
+        "patterns":[
+          "i am having less sleep",
+          "I cant sleep properly from past few weeks",
+          "Cant get proper sleep from many days",
+          "Not able to sleep peacefully",
+          "I am feeling like having insomnia"
+        ],
+        "responses":[
+          "I would suggest you to do yoga exercises like Uttanasana , Halasana , Shishuasana etc. as it could be insomnia<br>Tell me do you Smoke ????",
+          "This can be Insomnia try doing yoga exercises like Uttanasana , Halasana , Shishuasana etc.<br>Tell me do you Smoke ???? "
+        ]
+      },
+      {
+        "tag":"Hypersomnia",
+        "patterns":[
+          "i am oversleeping",
+          "I am sleepy all the day from few weeks",
+          "Sleeping all day ",
+          "Feeling dizzy all the day",
+          "Not feeling to get off bed"
+        ],
+        "responses":[
+          "I would suggest you to do yoga exercises like Marjariasana , Baddha Konasana , Ananda Balasana etc. as it could be Hypersomnia<br>Tell me do you Smoke ????",
+          "This could be Hypersomnia try doing yoga exercises like Marjariasana , Baddha Konasana , Ananda Balasana etc. <br>Tell me do you Smoke ????"
+        ]
+      },
+      {
+        "tag":"proper_sleep",
+        "patterns":[
+          "i am having proper sleep",
+          "having good sleep",
+          "having required amount of sleep",
+          "I am having adequate sleep"
+        ],
+        "responses":[
+          "Good<br>Tell me do you Smoke ????"
+        ]
+      },
+      {
+        "tag":"smoking_true",
+        "patterns":[
+          "yes i smoke sometimes",
+          "Yes i smoke a cigarette per day",
+          "Yes i smoke heavily",
+          "Yes i smoke 4 packets every day",
+          "I am addicted to smoking",
+          "Yes i some frequently"
+        ],
+        "responses":[
+          "You should stop smoking !! If you can't then try Nicotine free cigarettes first and then start doing some yoga to concentrate on work without Cigarette and leave smoking as soon as possible!!!!!<br>Please tell me how are your relations with your friends or family or parents ?"
+        ]
+      },
+      {
+        "tag":"smoking_false",
+        "patterns":[
+          "never smoke",
+          "No i dont smoke",
+          "No I do not smoke",
+          "I quit smoking long time ago"
+        ],
+        "responses":[
+          "Nice!!!<br>Please tell me how are your relations with your friends or family or parents ?"
+        ]
+      },
+      {
+        "tag":"relations_good",
+        "patterns":[
+          "I am having good relations with my friends",
+          "I am having good relations with my family",
+          "I am having good relations with my parents",
+          "Having good relations with all of them",
+          "good relations"
+        ],
+        "responses":[
+          "I hope all your relations remains good forever<br>Do you get anxious ?"
+        ]
+      },
+      {
+        "tag":"relations_bad",
+        "patterns":[
+          "I am not having good relations with my friends",
+          "I am not having good relations with my family",
+          "I am not having good relations with my parents",
+          "not having good relations with all of them",
+          "i am having bad realtions with all of them",
+          "bad relations"
+        ],
+        "responses":[
+          "I hope all your relations gets on track soon .<br>Do you get anxious ?"
+        ]
+      },
+      {
+        "tag":"anxious_true",
+        "patterns":[
+          "yes i get anxious sometimes",
+          "yes, i do get anxious sometimes",
+          "sometimes i get anxious",
+          "I cant concentrate on one thing",
+          "I suffer from anxiety attacks",
+          "yes I feel anxious many times",
+          "I sometimes feel short of breadth",
+          "Sometimes i feel muscle aches and tension",
+          "sometimes i feel like shaking or trembling",
+          "I sometimes get palpitations",
+          "Yes i sweat excessively sometimes",
+          "yes i feel short of breadth , excess sweat , palpitations , trembling , muscle aches and tension "
+        ],
+        "responses":[
+          "Its a thing to worry , try doing meditation when you feel anxious<br>What is your views about your eating patterns , do you over eat or are you having poor appetite or you are having good appetite???"
+        ]
+      },
+      {
+        "tag":"anxious_false",
+        "patterns":[
+          "no i dont get anxious",
+          "No symptoms of anixety",
+          "i never feel anxious",
+          "very rare moments i feel anxious"
+        ],
+        "responses":[
+          "Great!<br>What is your views about your eating patterns , do you over eat or are you having poor appetite or you are having good appetite???"
+        ]
+      },
+      {
+        "tag":"appetite_okay",
+        "patterns":[
+          "I am not having any issues with appetite",
+          "Having proper food",
+          "Not overeating or less appetite",
+          "I am having a proper appetite"
+        ],
+        "responses":[
+          "Thats great<br>Do you feel mentally tired??"
+        ]
+      },
+      {
+        "tag":"appetite_over",
+        "patterns":[
+          "i overeat a lot",
+          "I am doing overeating",
+          "Having very unhealthy food in large quatity",
+          "eating excessilvely",
+          "eating unecessarily"
+        ],
+        "responses":[
+          "Please visit a dietician<br>Do you feel mentally tired??"
+        ]
+      },
+      {
+        "tag":"appetite_less",
+        "patterns":[
+          "i am eating less",
+          "poor appetite",
+          "i'm not able to eat proprly at all",
+          "i have poor appetite",
+          "I am having less food than required",
+          "Not able to eat food",
+          "I am having less appetite"
+        ],
+        "responses":[
+          "Please visit a dietician<br>Do you feel mentally tired??"
+        ]
+      },
+      {
+        "tag":"mentally_tired_true",
+        "patterns":[
+          "Yes i am mentally exhausted",
+          "Yes i am mentally tired",
+          "Yes, i feel exhausted all the time",
+          "I am mentally tired",
+          "Yes, i feel exhausted sometimes"
+        ],
+        "responses":[
+          "Try getting proper sleep<br>Do you cry frequently?"
+        ]
+      },
+      {
+        "tag":"mentally_tired_false",
+        "patterns":[
+          "i am mentally fit",
+          "No i am mentally fit",
+          "No i am not mentally exhausted",
+          "No i am not mentally tired"
+        ],
+        "responses":[
+          "I hope it remains forever<br>Do you cry frequently?"
+        ]
+      },
+      {
+        "tag":"crying_true",
+        "patterns":[
+          "always crying",
+          "Yes i feel crying most of the time",
+          "yes i cry frequently"
+        ],
+        "responses":[
+          "Sad to hear<br>Do you like being alone?"
+        ]
+      },
+      {
+        "tag":"crying_false",
+        "patterns":[
+          "yes i cry sometimes",
+          "no i never cry",
+          "no i dont cry",
+          "i cry very rarely"
+        ],
+        "responses":[
+          "Its okay to cry sometimes !<br>Do you like being alone?"
+        ]
+      },
+      {
+        "tag":"loneliness_true",
+        "patterns":[
+          "introvert",
+          "yes i am an introvert",
+          "yes i am not comfortable with people around me",
+          "i dont enjoy company of others",
+          "i cant get away with others",
+          "I love being alone",
+          "I dont like others after me"
+        ],
+        "responses":[
+          "Its your choice but having good people around helps a lot in social life<br>Do you feel being hopeless frequently?"
+        ]
+      },
+      {
+        "tag":"loneliness_false",
+        "patterns":[
+          "i am a extrovert",
+          "i am comfortable with people around me",
+          "i enjoy company of others",
+          "i get away with others easily",
+          "I love being with others",
+          "I like roaming in groups"
+        ],
+        "responses":[
+          "Thats actually a good thing<br>Do you feel being hopeless frequently?"
+        ]
+      },
+      {
+        "tag":"hopeless_true",
+        "patterns":[
+          "Yes i am always hopeless",
+          "Yes i am fed up and always give up very early",
+          "yes i give up at very initial stage"
+        ],
+        "responses":[
+          "Have you ever tried to harm yourself or have you tried to do suicide ?"
+        ]
+      },
+      {
+        "tag":"hopeless_false",
+        "patterns":[
+          "not hopeless",
+          "i never feel hopeless",
+          "No i am always hopefull",
+          "I am having a positive approach towards life",
+          "I am very positive",
+          "I never give up easily"
+        ]
+      },
+      {
+        "tag":"harm_true",
+        "patterns":[
+          "I tried to cut my vein with a knife",
+          "I tried to jump from a building",
+          "I tied my self to a ceiling fan",
+          "i tried consuming poision",
+          "i tried to jump in front of train"
+        ],
+        "responses":[
+          "Please visit this website https://suicidepreventionlifeline.org/ <br><br>or call this number 9152987821"
+        ]
+      },
+      {
+        "tag":"harm_false",
+        "patterns":[
+          "no i never tried doind harm tio myself",
+          "no i never harmed myself intentionally",
+          "Never tried suicide"
+        ]
+      },
+      {
+        "tag":"joke",
+        "patterns":[
+          "tell me a joke",
+          "yes please tell me a joke",
+          "ya  sure tell a joke",
+          "i want to hear a joke"
+        ],
+        "responses":[
+          "What do you call an alligator in a vest?<br>Investigator",
+          "What do you call a sleeping bull?<br>Bulldozer",
+          "When is the best time to go to the dentist?<br>Tooth-hurty"
+        ]
+      },
+      {
+        "tag": "social_anxiety",
+        "patterns": [
+            "I feel anxious in social situations",
+            "Social gatherings make me nervous",
+            "I'm uncomfortable around people",
+            "I avoid social events",
+            "I fear judgment in social settings"
+        ],
+        "responses": [
+            "Social anxiety is common. Let's discuss strategies to make social situations more comfortable for you.",
+            "It's okay to feel anxious in social situations. We can work on building confidence together.",
+            "I understand. Many people experience social anxiety. It's okay to feel this way. Let's talk about it. Can you share more about specific situations that trigger your anxiety?"
+        ]
+      },
+      {
+        "tag": "meeting_new_people",
+        "patterns": [
+          "Approaching strangers makes me uncomfortable.",
+          "I find it difficult to initiate conversations.",
+          "I fear rejection when meeting new people.",
+          "I get nervous in social events where I have to meet new people.",
+          "Introducing myself to strangers is always awkward for me.",
+          "I feel anxious when I have to attend networking events.",
+          "Meeting new people feels like a daunting task to me.",
+          "I'm not good at small talk when meeting new people."
+        ],
+        "responses": [
+          "Meeting new people can be challenging. It's a common concern. What aspects of approaching strangers or starting conversations make you feel uneasy?",
+          "It's completely normal to feel nervous about meeting new people. Many share this sentiment. Can you pinpoint specific aspects of social events or introductions that make you feel uneasy?",
+          "Initiating conversations with strangers can indeed be challenging. Let's break it down. What specifically about these interactions makes you anxious?",
+          "Networking events can be overwhelming. What specific fears or concerns do you have when it comes to meeting new people?",
+          "The prospect of meeting new people can feel daunting, but we can work on strategies to make it more manageable. What particular situations trigger this feeling for you?",
+          "Small talk can be tough, especially with new people. What about small talk do you find challenging or uncomfortable?"
+        ]
+      },
+      {
+        "tag": "relations_bad",
+        "patterns": [
+          "I struggle with maintaining friendships.",
+          "My family relationships are strained.",
+          "I often feel isolated.",
+          "I find it hard to connect with others.",
+          "I've had falling outs with my friends recently.",
+          "My family members and I don't get along well.",
+          "Feeling lonely even when surrounded by people I know.",
+          "I've had a hard time making deep connections with others."
+        ],
+        "responses": [
+          "I'm sorry to hear that you're facing challenges in your relationships. Open communication is key. What specific aspects do you find difficult in connecting with others?",
+          "I'm sorry to hear that you're experiencing difficulties in your relationships. It's important to address these challenges. What specific incidents or issues have led to falling outs with your friends?",
+          "Strained family relationships can be tough. Let's explore ways to improve communication and understanding. Can you share more about the issues you face with your family?",
+          "Feeling lonely in the midst of people you know is tough. What aspects of your interactions make you feel isolated? Let's work on strategies to strengthen your connections.",
+          "Making deep connections can take time. What barriers do you feel are preventing you from forming meaningful relationships? Let's discuss how we can overcome them."
+        ]
+      },
+      {
+        "tag": "positive_group_experiences",
+        "patterns": [
+          "I enjoy group activities.",
+          "Being part of a team boosts my mood.",
+          "Group settings make me feel connected.",
+          "Positive experiences in groups uplift me.",
+          "Group activities bring me joy and fulfillment.",
+          "I feel a sense of camaraderie when I'm part of a team.",
+          "Positive interactions in group settings improve my overall well-being.",
+          "Being involved in group projects makes me feel more connected to others."
+        ],
+        "responses": [
+          "That's great to hear! Positive group experiences can be powerful for building connections. What specific group activities have you enjoyed recently?",
+          "It's fantastic that you find joy and fulfillment in group activities. What specific aspects of these activities resonate with you the most?",
+          "Camaraderie within a team is powerful. How do you think being part of a team contributes to your overall mood and satisfaction?",
+          "Positive interactions in group settings can have a significant impact on well-being. Can you share some examples of experiences that stand out to you?",
+          "Feeling connected in group projects is wonderful. What qualities of these experiences make you feel more connected to others?"
+        ]
+      },
+      {
+        "tag": "positive_self_talk",
+        "patterns": [
+          "I struggle with negative self-talk in social settings.",
+          "My inner critic is loud when I'm around people.",
+          "I want to change my self-talk patterns.",
+          "Positive affirmations are challenging for me.",
+          "I find myself thinking negatively when I'm in social situations.",
+          "My thoughts become critical when I'm around people.",
+          "Changing my self-talk is a goal, but it's challenging.",
+          "I struggle with finding positive affirmations that resonate with me."
+        ],
+        "responses": [
+          "Changing self-talk can take time. Let's work on cultivating more positive thoughts. What specific situations trigger negative self-talk for you in social settings?",
+          "It's common to face challenges with self-talk in social settings. Acknowledging the desire to change is a positive step. Can you share specific situations that trigger negative thoughts?",
+          "Negative thoughts in social situations can be tough. What aspects of your inner critic's voice do you find most challenging to deal with?",
+          "Working on changing self-talk is a commendable goal. Let's explore strategies to make this process more manageable. What areas of self-talk do you feel need the most improvement?",
+          "Positive affirmations can indeed be challenging. What kind of affirmations do you think would be most helpful for you? Let's work together to find ones that resonate."
+        ]
+      },
+      {
+        "tag": "balance_social_alone_time",
+        "patterns": [
+          "Finding a balance between social and alone time is challenging.",
+          "I need alone time to recharge.",
+          "I fear isolation, but also value my solitude.",
+          "Balancing socializing and self-care is difficult for me.",
+          "I often feel torn between socializing and taking time for myself.",
+          "Alone time is crucial for me, but I also want to maintain social connections.",
+          "Balancing a busy social life with self-care is a constant struggle.",
+          "I worry about feeling isolated, yet I value moments of solitude."
+        ],
+        "responses": [
+          "Balancing social and alone time is important. Let's explore strategies for finding a healthy balance. What activities help you recharge during alone time?",
+          "Juggling social and alone time can be a challenge. Let's explore strategies to create a balance that feels right for you. What specific situations make this balancing act difficult for you?",
+          "It's completely normal to value both social connections and solitude. How do you currently recharge during your alone time? Let's discuss ways to enhance that experience.",
+          "Finding a balance between a busy social life and self-care is a common struggle. What self-care activities do you currently engage in, and how can we make them more integrated into your routine?",
+          "The fear of isolation is understandable, yet solitude is important. What are your concerns about feeling isolated, and how can we address them while preserving your need for alone time?"
+        ]
+      },
+      {
+        "tag": "body_image_intro",
+        "patterns": [
+          "I'm struggling with my body image.",
+          "Body image concerns are affecting me.",
+          "I feel insecure about my appearance.",
+          "I'm not happy with how I look.",
+          "I feel pressured to meet societal beauty standards.",
+          "Body image issues are impacting my self-esteem.",
+          "I compare myself to others and feel inadequate.",
+          "Media's portrayal of 'ideal' bodies is affecting me negatively."
+        ],
+        "responses": [
+          "I'm here to help. Body image concerns are common, and it's okay to talk about them. Can you share more about what aspects of your appearance are causing distress?",
+          "I appreciate your openness. Many people grapple with societal pressures and comparisons. What specific aspects of societal beauty standards or media influence are causing distress? Let's explore ways to navigate these challenges together.",
+          "It's brave of you to share. Body image and self-esteem are interconnected. Can you elaborate on how your self-esteem is affected? Understanding more about your experiences will help us work towards building a positive self-image.",
+          "Thank you for sharing your feelings. Comparisons can be tough. What situations or triggers make you feel inadequate when comparing yourself to others? We can discuss strategies to foster a more positive self-perception.",
+          "I hear you. Media's portrayal can have a significant impact. How do you perceive the influence of media on your body image, and in what ways does it affect your feelings about yourself? Let's work together to challenge these influences."
+        ]
+      },
+      {
+        "tag": "comparison_trap",
+        "patterns": [
+          "I often compare myself to others.",
+          "Social media makes me feel worse about my body.",
+          "I can't help but measure myself against societal standards.",
+          "I find myself constantly comparing my body to others.",
+          "Social media triggers negative thoughts about my appearance.",
+          "Comparing to societal standards is taking a toll on my self-esteem."
+        ],
+        "responses": [
+          "The comparison trap can be challenging. Many people struggle with this. What specific aspects of comparison are affecting your body image? Let's discuss healthier ways to approach self-perception.",
+          "Thank you for sharing. Constant comparison can be tough. Can you pinpoint specific situations or contexts where you often find yourself comparing? Understanding the triggers can help us work on coping strategies together.",
+          "I hear you. Social media has a powerful impact. How does social media specifically contribute to negative thoughts about your body? Let's explore ways to create a more positive online environment for yourself.",
+          "It's common to feel the pressure of societal standards. In what ways do you feel these standards affect your self-esteem? Let's discuss how to challenge these comparisons and embrace a more positive self-perception."
+        ]
+      },
+      {
+        "tag": "positive_affirmations",
+        "patterns": [
+          "I find it hard to say positive things about my body.",
+          "Positive affirmations about my appearance feel insincere.",
+          "I need help developing a positive body image.",
+          "I struggle to embrace positive thoughts about my body.",
+          "It feels awkward to compliment myself on my appearance.",
+          "Developing a positive body image is harder than I expected."
+        ],
+        "responses": [
+          "It's understandable to find this challenging. Let's work on cultivating positive affirmations together. What specific qualities about your body do you appreciate? We can build from there.",
+          "Thank you for sharing. Embracing positivity can take time. What specific aspects of your body do you find challenging to affirm positively? Let's explore ways to shift towards a more self-affirming mindset.",
+          "I understand it might feel awkward. Complimenting yourself is an important step. Are there particular features or qualities about your appearance that you feel positive about? Let's build upon those affirmations together.",
+          "It's okay to find it challenging. Developing a positive body image is a journey. What are some qualities or strengths about your body that you can acknowledge? We can work on building a more positive perspective together."
+        ]
+      },
+      {
+        "tag": "media_influence",
+        "patterns": [
+          "Media portrayal of 'ideal' bodies affects me negatively.",
+          "I feel pressure to conform to unrealistic beauty standards.",
+          "Images in the media make me feel inadequate.",
+          "I struggle with the constant bombardment of 'ideal' body images in the media.",
+          "Media's portrayal of beauty makes me question my own appearance.",
+          "The pressure to conform to media standards is affecting my self-esteem."
+        ],
+        "responses": [
+          "Media influence on body image is a common concern. How do you feel pressured by these standards, and in what ways does it impact your self-perception? Let's explore ways to navigate these influences.",
+          "Thank you for sharing. The constant bombardment can be overwhelming. How does the media's portrayal of 'ideal' bodies specifically impact your thoughts about your appearance? Let's discuss strategies to create a healthier relationship with media.",
+          "I hear you. Media's influence can be powerful. In what ways does the portrayal of beauty standards make you question your own appearance? Let's work on recognizing and challenging these unrealistic ideals together.",
+          "It's common to feel pressure from media standards. How does this pressure manifest in your thoughts and feelings about your self-esteem? Let's explore ways to build resilience against these influences and cultivate a positive self-perception."
+        ]
+      },
+      {
+        "tag": "self_compassion",
+        "patterns": [
+          "I struggle with being kind to myself regarding my appearance.",
+          "Self-compassion feels difficult when it comes to my body.",
+          "I need guidance on developing a more positive self-image.",
+          "I find it hard to extend kindness to myself, especially regarding my body.",
+          "Self-compassion is a struggle for me, especially when it comes to my appearance.",
+          "Developing a positive self-image through self-compassion seems challenging."
+        ],
+        "responses": [
+          "Being kind to yourself is important. What challenges do you face in practicing self-compassion, especially in relation to your body? Let's explore strategies to foster a more positive self-image.",
+          "Thank you for sharing. Extending kindness to oneself is a journey. What specific aspects of your appearance make it challenging to practice self-compassion? Let's explore ways to cultivate a more compassionate perspective.",
+          "I understand it can be tough. Self-compassion is a skill that takes time to develop. How does your struggle with self-compassion manifest, particularly in relation to your body? Let's work on strategies to nurture a kinder relationship with yourself.",
+          "It's okay to find it challenging. Developing a positive self-image through self-compassion is a process. What aspects of this process seem difficult for you? Let's discuss practical steps to enhance self-compassion and foster a more positive self-perception."
+        ]
+      },
+      {
+        "tag": "seeking_professional_help",
+        "patterns": [
+          "I'm considering seeking professional help for my body image concerns.",
+          "Therapy seems like a good option for my struggles with body image.",
+          "How can I find a therapist who specializes in body image issues?",
+          "I'm thinking about reaching out to a professional regarding my body image concerns.",
+          "Therapy feels like it could be beneficial for my struggles with body image.",
+          "How do I go about finding a therapist who can help with body image issues?"
+        ],
+        "responses": [
+          "Considering professional help is a positive step. I can provide resources for finding a therapist specializing in body image concerns. Would you like assistance with that? Remember, seeking support is a sign of strength.",
+          "Thank you for sharing. Considering professional help is a positive step. I can assist you in finding a therapist specializing in body image concerns. Would you like guidance on how to start that process? Remember, seeking support is a brave and empowering choice.",
+          "It's great that you're open to therapy for your struggles. I can provide resources to help you find a therapist who specializes in body image issues. Would you like assistance with that? Remember, taking this step is a valuable investment in your well-being.",
+          "Exploring therapy for body image concerns is a commendable decision. I can offer support in finding a therapist who aligns with your needs. Would you like help with that process? Remember, seeking professional help is a proactive choice towards positive change."
+        ]
+      },
+      {
+        "tag": "self_esteem_intro",
+        "patterns": [
+          "I struggle with my self-esteem.",
+          "My self-esteem is low.",
+          "I feel insecure about myself.",
+          "I lack confidence.",
+          "I doubt my abilities a lot.",
+          "My self-worth is often shaky.",
+          "I compare myself to others constantly.",
+          "Negative thoughts about myself come up frequently.",
+          "I often feel like I'm not good enough.",
+          "I fear rejection, and it affects my confidence.",
+          "Receiving criticism deeply impacts my self-esteem.",
+          "Negative feedback makes me question myself.",
+          "I'm afraid of not meeting others' expectations.",
+          "I struggle with accepting compliments.",
+          "I avoid certain situations due to low self-esteem.",
+          "Socializing is challenging because of my self-doubt.",
+          "I hesitate to express my opinions in groups.",
+          "Low self-esteem affects my relationships.",
+          "I often feel like I don't belong."
+        ],
+        "responses": [
+          "I'm here to help. Many people struggle with self-esteem at times. Can you share more about what aspects of yourself you find challenging? Understanding these feelings is a crucial first step.",
+          "Avoidance and social challenges can be linked to low self-esteem. Building confidence involves stepping out of comfort zones gradually. Let's discuss specific situations you find challenging and work on strategies to enhance your self-assurance. What aspects of socializing or expressing opinions feel particularly difficult for you?",
+          "Fear of rejection and criticism can significantly impact self-esteem. It's common to seek approval, but building confidence involves valuing your own opinions as well. Let's explore ways to navigate these fears together. Can you share more about situations where you fear rejection or face criticism?",
+          "It's understandable to face challenges with self-esteem. Many people share similar experiences. Identifying specific thoughts or situations that trigger self-doubt can help us work on building a more positive self-perception. Can you tell me more about what situations make you doubt your abilities or feel not good enough?"
+        ]
+      },
+      {
+        "tag": "self_esteem_positive_affirmations1",
+        "patterns": [
+          "How can I improve my self-esteem?",
+          "Tell me some positive affirmations for self-esteem.",
+          "I want to work on building my confidence.",
+          "What are some ways to boost self-esteem?"
+        ],
+        "responses": [
+          "Improving self-esteem is a journey. Start by acknowledging your strengths and achievements. Repeat positive affirmations daily. For example, 'I am worthy, capable, and deserving of happiness.' What are some qualities about yourself that you appreciate?"
+        ]
+      },
+      {
+        "tag": "self_esteem_positive_affirmations2",
+        "patterns": [
+          "How can I stop comparing myself to others?",
+          "I want to build confidence without relying on external validation.",
+          "Tell me about the role of gratitude in improving self-esteem.",
+          "What positive habits can I develop to boost my self-worth?"
+        ],
+        "responses": [
+          "Stopping comparisons and building internal validation are crucial for self-esteem. Practice gratitude by acknowledging positive aspects of your life. Develop habits that align with your values and bring you joy. External validation can be fleeting, but recognizing your worth from within is empowering. What specific challenges do you face in building confidence without external validation?"
+        ]
+      },
+      {
+        "tag": "self_esteem_positive_affirmations3",
+        "patterns": [
+          "How can I overcome self-doubt?",
+          "Tell me about the connection between self-esteem and mindset.",
+          "I want to cultivate a positive outlook on myself and my abilities.",
+          "Share tips for maintaining a positive self-image."
+        ],
+        "responses": [
+          "Overcoming self-doubt involves changing your mindset. Focus on your strengths and accomplishments. Challenge negative thoughts by questioning their validity. For example, if you think 'I can't do this,' ask yourself, 'What evidence suggests I can't?' What specific situations trigger self-doubt for you, and how would you like to approach them differently?"
+        ]
+      },
+      {
+        "tag": "self_esteem_positive_affirmations4",
+        "patterns": [
+          "How can I incorporate self-love into my daily routine?",
+          "I need practical tips for boosting self-esteem.",
+          "Share strategies for building confidence over time.",
+          "What daily habits can help improve my self-image?"
+        ],
+        "responses": [
+          "Incorporating self-love into your routine is a great goal. Start by setting realistic goals and celebrating small achievements. Practice self-care, engage in activities you enjoy, and surround yourself with positive influences. Remember, building confidence is a gradual process. What specific daily habits would you like to focus on for improving your self-image?"
+        ]
+      },
+      {
+        "tag": "self_esteem_positive_affirmations",
+        "patterns": [
+          "Can you suggest positive affirmations for self-confidence?",
+          "I struggle with negative self-talk. How can I change it?",
+          "Tell me ways to reinforce positive thoughts about myself.",
+          "I want to feel more confident in social situations."
+        ],
+        "responses": [
+          "Absolutely! Positive affirmations can be a powerful tool. Start by telling yourself, 'I am worthy of love and respect.' Additionally, challenge negative thoughts by replacing them with positive ones. For example, instead of saying 'I can't do this,' try 'I am capable and can overcome challenges.' What situations trigger negative self-talk for you?"
+        ]
+      },
+      {
+        "tag": "self_esteem_self_reflection",
+        "patterns": [
+          "I don't know why my self-esteem is low.",
+          "What contributes to low self-esteem?",
+          "How can I understand my self-esteem better?",
+          "I feel like I've always had low self-esteem. Why is that?",
+          "How can childhood experiences affect self-esteem?",
+          "I struggle to pinpoint the reasons behind my low self-esteem.",
+          "Is it common for past relationships to impact self-esteem?",
+          "I've faced criticism in the past. How does it affect self-worth?",
+          "How do societal expectations play a role in self-esteem?"
+        ],
+        "responses": [
+          "Understanding the roots of low self-esteem is essential. Reflect on past experiences, criticisms, or negative beliefs. Are there specific situations or thoughts that trigger feelings of inadequacy? Identifying these can help us work on building a healthier self-perception.",
+          "Low self-esteem can be influenced by various factors, including childhood experiences, societal influences, and personal beliefs. Reflect on your early years. Were there specific events or messages that may have contributed to these feelings? Understanding the origins of low self-esteem is a valuable step toward fostering positive change.",
+          "Past relationships and external influences can impact self-esteem. Criticism, whether from others or oneself, can shape how we perceive our worth. Societal expectations also contribute to these perceptions. Reflect on your experiences. Are there specific instances where relationships or societal pressures influenced your self-esteem? Identifying these patterns can aid in developing a healthier self-image."
+        ]
+      },
+      {
+        "tag": "self_esteem_self_reflection2",
+        "patterns": [
+          "I want to break free from negative thought patterns.",
+          "How can I challenge negative beliefs about myself?",
+          "Tell me about cognitive distortions and their role in self-esteem."
+        ],
+        "responses": [
+          "Breaking free from negative thought patterns involves challenging and reframing them. Identify cognitive distortions, such as all-or-nothing thinking or overgeneralization. When you notice a negative thought, ask yourself if it aligns with reality. What evidence supports or contradicts this belief? Developing awareness of these distortions is a crucial step toward cultivating a more positive self-view."
+        ]
+      },
+      {
+        "tag": "self_esteem_self_reflection3",
+        "patterns": [
+          "Can you guide me on self-reflection exercises for improving self-esteem?",
+          "What journaling prompts can help me explore my self-esteem?",
+          "I want to delve deeper into understanding myself and my self-worth."
+        ],
+        "responses": [
+          "Certainly! Journaling can be a powerful tool for self-reflection. Start by exploring your strengths, achievements, and moments of pride. Reflect on situations where you felt confident. Additionally, consider moments that triggered self-doubt. What were the thoughts and feelings associated with these situations? Engaging in regular self-reflection exercises can provide valuable insights into your self-esteem journey."
+        ]
+      },
+      {
+        "tag": "self_esteem_self_compassion",
+        "patterns": [
+          "Being kind to myself is difficult.",
+          "I struggle with self-compassion.",
+          "How can I practice self-love?",
+          "I want to build a positive relationship with myself.",
+          "How can self-compassion contribute to a positive self-image?",
+          "Tell me about the connection between self-compassion and self-esteem.",
+          "I feel guilty when I prioritize self-care.",
+          "Balancing self-care and responsibilities is challenging for me.",
+          "How can I overcome guilt associated with taking care of myself?"
+        ],
+        "responses": [
+          "Practicing self-compassion is key. Treat yourself with the kindness you would offer a friend. Challenge negative thoughts with positive ones. What specific challenges do you face in being kind to yourself? Let's explore ways to foster self-love.",
+          "Self-compassion is a foundation for a positive self-image. It involves treating yourself with kindness, understanding, and acceptance. Reflect on situations where self-compassion could have played a role in shaping a positive self-image. How do you envision building a positive relationship with yourself? Let's explore actionable steps to integrate self-compassion into your self-esteem journey.",
+          "Prioritizing self-care is essential for building self-compassion. Guilt can arise, but it's crucial to recognize that self-care is not selfish. Reflect on the beliefs contributing to this guilt. What messages have you received about self-care? Let's explore ways to shift these beliefs and embrace self-care as a positive and necessary practice for self-compassion."
+        ]
+      },
+      {
+        "tag": "self_esteem_self_compassion_comparison",
+        "patterns": [
+          "I compare myself to others and feel inadequate.",
+          "How does comparison impact self-compassion?",
+          "Tell me about overcoming feelings of inadequacy through self-compassion."
+        ],
+        "responses": [
+          "Comparison can hinder self-compassion. When comparing, remember that everyone's journey is unique. Instead of focusing on inadequacy, celebrate your strengths and progress. How does comparison manifest in your life, and in what areas do you often feel inadequate? Let's explore ways to shift your mindset and nurture self-compassion in these moments."
+        ]
+      },
+      {
+        "tag": "self_esteem_self_compassion_criticism",
+        "patterns": [
+          "I often criticize myself instead of being compassionate.",
+          "How can I break the habit of self-criticism?",
+          "Tell me about practical ways to incorporate self-compassion into my daily life."
+        ],
+        "responses": [
+          "Breaking the habit of self-criticism involves cultivating self-compassion. Start by acknowledging your inner dialogue. When self-criticism arises, counter it with gentle and understanding words. Incorporate self-compassion practices, such as positive affirmations or mindfulness, into your daily routine. What situations trigger self-criticism for you? Let's work on transforming those moments into opportunities for self-compassion."
+        ]
+      },
+      {
+        "tag": "seeking_support_self_esteem",
+        "patterns": [
+          "I'm thinking about seeking support for my self-esteem.",
+          "How can therapy help with self-esteem?",
+          "Should I talk to someone about my self-esteem issues?",
+          "I'm thinking about seeking support for my self-esteem.",
+          "I feel overwhelmed by my low self-esteem.",
+          "I want to improve my self-esteem but don't know where to start.",
+          "I feel like my self-esteem is affecting my daily life.",
+          "Dealing with low self-esteem is becoming overwhelming.",
+          "I want to address my self-esteem issues but don't know where to begin."
+        ],
+        "responses": [
+          "Considering support is a positive step. Therapy can provide tools and insights. I can assist you in finding a therapist specializing in self-esteem. Would you like help with that? Remember, seeking support is a courageous choice.",
+          "Therapy can be a valuable resource for addressing self-esteem issues. It offers a safe space to explore your thoughts and emotions. If you're unsure, talking to someone about your self-esteem can provide clarity and support.",
+          "It's completely normal to feel overwhelmed by low self-esteem. Seeking support, whether through therapy or talking to someone you trust, can make a significant difference in your journey towards building a healthier self-perception.",
+          "Improving self-esteem is a gradual process, and it's okay not to know where to start. Seeking support, such as talking to a therapist, can provide guidance and strategies to enhance your self-esteem over time.",
+          "It's completely okay to talk to someone about your self-esteem issues. Whether it's a friend, family member, or a professional, sharing your feelings can provide support and understanding.",
+          "If you feel like your self-esteem is affecting your daily life, seeking support is a proactive approach. Therapy can help you develop coping strategies and build a more positive self-image.",
+          "Feeling overwhelmed by low self-esteem is common, but you don't have to navigate it alone. Seeking support, whether through therapy or talking to someone you trust, can be a transformative step in improving your self-esteem.",
+          "If you're unsure where to begin in addressing your self-esteem issues, reaching out for support is a commendable first move. Therapy can guide you on a path towards building confidence and a healthier self-perception."
+        ]
+      },
+      {
+        "tag": "self_esteem_gratitude",
+        "patterns": [
+          "Can gratitude practices help with self-esteem?",
+          "How does gratitude impact self-esteem?",
+          "Tell me about self-esteem and gratitude.",
+          "Can gratitude practices help with self-esteem?",
+          "How does gratitude impact self-esteem?",
+          "Tell me about self-esteem and gratitude.",
+          "I'm interested in learning how gratitude can improve self-esteem.",
+          "Are there specific gratitude exercises for boosting self-esteem?",
+          "Can you share success stories of people improving self-esteem through gratitude?",
+          "Is there a connection between positive affirmations and gratitude for self-esteem?",
+          "I've heard about gratitude journals. How do they work in improving self-esteem?",
+          "Are there different ways to practice gratitude for self-esteem benefits?",
+          "Can you recommend resources or readings on self-esteem and gratitude?",
+          "How often should I practice gratitude to see positive effects on my self-esteem?",
+          "Are there any guided practices or apps for incorporating gratitude into my routine?"
+        ],
+        "responses": [
+          "Absolutely! Gratitude practices can positively impact self-esteem. Reflect on what you're thankful for daily. Celebrate small achievements. How comfortable are you with practicing gratitude? Let's discuss incorporating it into your routine.",
+          "Exploring the connection between gratitude and self-esteem is important. It's a positive step! Let's discuss how gratitude practices can be personalized for you.",
+          "Gratitude practices have shown positive effects on self-esteem. It's great that you're interested! We can explore specific exercises and approaches together.",
+          "Gratitude is a powerful tool for improving self-esteem. Let's delve into the ways it can make a positive impact on your self-perception.",
+          "Learning how gratitude can improve self-esteem is a valuable journey. We can discuss different exercises and methods that align with your preferences.",
+          "Absolutely! Gratitude exercises can indeed boost self-esteem. Let's explore various options and find what resonates with you.",
+          "Many individuals have shared success stories about improving self-esteem through gratitude practices. It's inspiring! How would you like to incorporate gratitude into your routine?",
+          "Positive affirmations and gratitude are closely connected, both contributing to improved self-esteem. Let's discuss how you can integrate them into your daily life.",
+          "Gratitude journals are effective tools for self-esteem. We can explore how journaling can be tailored to your needs and preferences.",
+          "Certainly! There are diverse ways to practice gratitude, each offering unique benefits for self-esteem. What resonates with you? Let's find a method that suits your preferences.",
+          "I can provide you with recommendations for readings and resources that explore the relationship between self-esteem and gratitude. What format are you interested in?",
+          "The frequency of practicing gratitude depends on personal preference. Let's create a plan that aligns with your lifestyle and enhances your self-esteem.",
+          "Absolutely! There are apps and guided practices designed for incorporating gratitude into your routine. Would you like recommendations for any specific platform or type of practice?"
+        ]
+      },
+      {
+        "tag": "self_esteem_goal_setting",
+        "patterns": [
+          "Setting goals feels overwhelming.",
+          "How can goal-setting improve self-esteem?",
+          "I struggle to achieve my goals.",
+          "Setting goals feels overwhelming.",
+          "How can goal-setting improve self-esteem?",
+          "I struggle to achieve my goals.",
+          "I want to improve my self-esteem through goal-setting.",
+          "Are there specific types of goals that are effective for building self-esteem?",
+          "Can you share examples of small, achievable goals for self-esteem improvement?",
+          "How often should I review and adjust my self-esteem goals?",
+          "Is there a connection between long-term goals and self-esteem?",
+          "What role does consistency play in goal-setting for self-esteem?",
+          "Can you provide guidance on overcoming setbacks while pursuing self-esteem goals?",
+          "I need help creating a plan for my self-esteem goals.",
+          "Are there resources or tools that can assist me in setting and tracking self-esteem goals?",
+          "Should self-esteem goals focus on internal or external achievements?",
+          "How do I stay motivated while working on my self-esteem goals?"
+        ],
+        "responses": [
+          "Goal-setting can boost self-esteem. Start with small, achievable goals. Celebrate progress, no matter how small. What goals do you find overwhelming? Let's break them down into manageable steps and create a plan for success.",
+          "It's common to feel overwhelmed by goal-setting. We can start by identifying specific aspects that seem challenging. What goals do you find overwhelming? Let's break them down into manageable steps and create a plan for success.",
+          "Goal-setting is a powerful tool for improving self-esteem. Begin with small, achievable goals. Celebrate progress, no matter how small. What goals are you considering? Let's discuss strategies to make them more manageable.",
+          "Struggling to achieve goals can impact self-esteem. Let's explore the challenges you're facing and work together to create realistic and attainable goals for self-esteem improvement.",
+          "Improving self-esteem through goal-setting is a positive choice. What specific aspects of self-esteem do you want to work on? Let's tailor your goals to address those areas.",
+          "Certain types of goals can be particularly effective for building self-esteem. Let's discuss your preferences and create goals that align with your strengths and interests.",
+          "Absolutely! Small, achievable goals are key for self-esteem improvement. Can you share some areas where you'd like to set goals? We can brainstorm examples together.",
+          "Reviewing and adjusting self-esteem goals is a dynamic process. Depending on your progress and changing circumstances, we can determine an appropriate frequency for evaluation.",
+          "Long-term goals can contribute significantly to self-esteem. They provide a sense of purpose and direction. What are some long-term aspirations related to self-esteem that interest you?",
+          "Consistency is crucial in goal-setting for self-esteem. Regular actions, even small ones, accumulate over time. How can we incorporate consistency into your approach to achieving self-esteem goals?",
+          "Overcoming setbacks is a natural part of the process. We can discuss strategies for resilience and how to view setbacks as opportunities for learning and growth.",
+          "Creating a plan for self-esteem goals is a collaborative process. What specific support or guidance do you need in developing your plan? Let's work together on outlining actionable steps.",
+          "Certainly! There are various resources and tools available to assist with setting and tracking self-esteem goals. What format or type of assistance are you looking for?",
+          "Self-esteem goals can focus on both internal and external achievements. Let's explore a balanced approach that addresses your inner well-being as well as external accomplishments.",
+          "Staying motivated is essential in working on self-esteem goals. What strategies have you found effective in maintaining motivation? We can also explore new approaches to keep you inspired."
+        ]
+      },
+      {
+        "tag": "self_esteem_encouragement",
+        "patterns": [
+          "I need encouragement for my self-esteem journey.",
+          "Tell me something uplifting about self-esteem.",
+          "Can you offer words of encouragement for building confidence?",
+          "I need encouragement for my self-esteem journey.",
+          "Tell me something uplifting about self-esteem.",
+          "Can you offer words of encouragement for building confidence?",
+          "How do I stay motivated on my self-esteem journey?",
+          "What role does self-compassion play in building self-esteem?",
+          "Can you share success stories of people improving their self-esteem?",
+          "What are some affirmations I can use to boost my confidence?",
+          "How can I celebrate small wins in my self-esteem journey?",
+          "Are setbacks normal in building self-esteem?",
+          "Tell me about the importance of self-love in improving self-esteem.",
+          "How can I overcome self-doubt in my journey to build self-esteem?",
+          "What are some daily practices to nurture self-esteem?",
+          "Can you provide examples of famous personalities who have openly discussed their self-esteem struggles?",
+          "How can I build resilience in the face of challenges during my self-esteem journey?"  
+        ],
+        "responses": [
+          "Absolutely! Building self-esteem is a process. Remember, you are resilient and capable of growth. Embrace each step forward, and be patient with yourself. What achievements or qualities about yourself are you proud of?",
+          "Certainly! Building self-esteem is a journey, and you're taking positive steps by acknowledging and addressing it. Remember, you are resilient and capable of growth. Embrace each step forward, and be patient with yourself. What achievements or qualities about yourself are you proud of?",
+          "Self-esteem is like a muscle that strengthens over time. You have the power to shape it positively. Believe in your abilities and uniqueness. What specific aspects of your self-esteem journey would you like encouragement in?",
+          "Absolutely! You are on a journey of building confidence, and that's commendable. Embrace your progress, no matter how small. You have the strength to overcome challenges. What recent achievements have contributed to your confidence?",
+          "Staying motivated on your self-esteem journey involves recognizing your progress and celebrating small wins. What strategies have you found effective in maintaining motivation? We can explore additional ways to keep you inspired.",
+          "Self-compassion is a vital ingredient in building self-esteem. Treat yourself with kindness, especially during challenging times. How can we incorporate self-compassion into your daily routine?",
+          "Success stories can be inspiring. Many individuals have overcome self-esteem challenges. Would you like to hear about specific examples or strategies they used for improvement?",
+          "Affirmations can be powerful tools for boosting confidence. What aspects of your self-esteem would you like to focus on in affirmations? We can create personalized affirmations together.",
+          "Celebrating small wins is crucial for self-esteem. What recent achievements or positive experiences can you acknowledge and celebrate? Let's highlight your progress.",
+          "Setbacks are a normal part of the journey. It's important to learn from them and use them as opportunities for growth. How do you currently navigate setbacks in your self-esteem journey?",
+          "Self-love is foundational for improving self-esteem. Recognizing and appreciating your worth is key. What practices do you currently have in place for nurturing self-love?",
+          "Overcoming self-doubt is a common challenge. Let's explore strategies to challenge negative thoughts and build confidence. What specific situations trigger self-doubt for you?",
+          "Daily practices can contribute significantly to nurturing self-esteem. What aspects of your routine can we enhance to support your self-esteem journey?",
+          "Many famous personalities have openly discussed their self-esteem struggles. Would you like to hear about specific individuals and how they navigated these challenges?",
+          "Building resilience is crucial for facing challenges. How do you currently cope with challenges in your self-esteem journey? We can explore additional strategies to enhance your resilience."
+        ]
+      },
+      {
+        "tag": "self_esteem_closure",
+        "patterns": [
+          "Thank you for the guidance. I feel more hopeful about my self-esteem.",
+          "I appreciate your support in discussing self-esteem.",
+          "This conversation has been helpful for my self-esteem."
+        ],
+        "responses": [
+          "You're welcome! I'm here whenever you need support. Remember, improving self-esteem is a journey, and you're taking positive steps. If you have more questions or thoughts in the future, feel free to reach out. Take care!"
+        ]
+      },
+      {
+        "tag": "work_stress_intro",
+        "patterns": [
+          "I'm feeling stressed at work.",
+          "Work is overwhelming me right now.",
+          "I'm struggling with stress from my job.",
+          "How can I cope with work-related stress?"
+        ],
+        "responses": [
+          "I'm here to support you. Work-related stress is common, and it's okay to seek help. Can you share more about what specific aspects of your job are causing stress?",
+          "It's not uncommon to feel stressed at work. I'm here to help. Can you tell me more about the particular challenges you're facing?",
+          "I understand that work stress can be tough. You're not alone. Can you provide more details about the sources of your stress at work?",
+          "Work-related stress is a common issue. It's important to address it. Can you share more about the aspects of your job that are causing stress?"
+        ]
+      },    
+      {
+        "tag": "work_stress_identify_issues",
+        "patterns": [
+          "I can't pinpoint why I'm stressed at work.",
+          "How do I identify the sources of stress in my job?",
+          "What are common causes of work-related stress?"
+        ],
+        "responses": [
+          "Identifying sources of work-related stress is an important step. Reflect on your daily tasks, interactions, and workload. Are there specific situations or responsibilities that stand out as particularly stressful? Understanding these can help us address them.",
+          "It's common to feel overwhelmed. Let's break down your work responsibilities. Are there specific tasks, deadlines, or interactions that you find particularly stressful?",
+          "Work-related stress can be complex. Reflect on your work environment, tasks, and interactions. Are there specific aspects that trigger stress? We can work together to identify and address them.",
+          "Many factors can contribute to work-related stress. Take a moment to reflect on your workdays. Are there specific challenges or situations that consistently cause stress? Identifying these can guide us in finding effective solutions."
+        ]
+      },
+      {
+        "tag": "work_stress_time_management",
+        "patterns": [
+          "I struggle with managing my time at work.",
+          "Time management is a challenge for me.",
+          "How can I balance my workload more effectively?",
+          "Meeting deadlines stresses me out.",
+          "I feel overwhelmed with the amount of work and tight deadlines.",
+          "How can I improve my efficiency in managing work tasks and time?"
+        ],
+        "responses": [
+          "Time management is crucial for reducing work stress. Let's explore strategies to prioritize tasks, set realistic goals, and establish a balanced schedule. What specific aspects of your time management are causing difficulties?",
+          "Balancing workload is a common challenge. We can work on creating a schedule that prioritizes tasks and allows for breaks. What aspects of time management do you find most challenging?",
+          "Effective time management is key to reducing stress. Let's discuss strategies for organizing your tasks, setting priorities, and creating a manageable schedule. Which specific aspects of your workload are causing the most stress?",
+          "Many people struggle with time management at work. Let's identify areas where we can improve your schedule, set realistic goals, and create a plan for better time management. What specific challenges are you facing in managing your time?",
+          "Meeting deadlines can be challenging. Let's explore strategies to improve efficiency, prioritize tasks, and meet deadlines without feeling overwhelmed. What specific challenges do you face when working under tight schedules?",
+          "Workload and tight deadlines can indeed be stressful. We can work on time-management techniques to enhance your efficiency and reduce stress. What aspects of meeting deadlines do you find most challenging?",
+          "Efficient time management is crucial, especially with tight deadlines. Let's discuss techniques for prioritizing tasks and meeting deadlines without feeling overwhelmed. What specific aspects of your workload contribute to stress?",
+          "It's common to feel overwhelmed with tight deadlines. We can explore methods to improve your time management, set realistic goals, and reduce stress. What particular aspects of meeting deadlines cause you the most stress?"
+        ]
+      },
+      {
+        "tag": "work_stress_communication",
+        "patterns": [
+          "Communication issues at work stress me out.",
+          "I have trouble expressing myself at work.",
+          "How can I improve communication with my colleagues?",
+          "Misunderstandings with colleagues stress me out.",
+          "I struggle with expressing my ideas at work.",
+          "How do I handle conflicts in communication with coworkers?"
+        ],
+        "responses": [
+          "Effective communication is key in a work environment. We can work on enhancing your communication skills and addressing any challenges you face. Are there specific situations or colleagues with whom you find communication challenging?",
+          "Misunderstandings can be stressful. Let's explore strategies for clearer communication to minimize conflicts. Are there specific instances where misunderstandings have occurred?",
+          "Expressing ideas effectively is crucial. We can work on communication techniques to improve your ability to convey thoughts. Can you provide an example of a situation where you found it challenging to express yourself?",
+          "Handling conflicts in communication is important for a healthy work environment. Let's discuss ways to navigate and resolve conflicts with colleagues. Can you share a recent situation where communication became a challenge?"
+        ]
+      },
+      {
+        "tag": "work_stress_pressure",
+        "patterns": [
+          "I feel constant pressure to meet deadlines.",
+          "Pressure at work is affecting my well-being.",
+          "How can I cope with the stress of tight deadlines?",
+          "Meeting tight deadlines is overwhelming for me.",
+          "The pressure at work is impacting my mental health.",
+          "I struggle with handling the stress of high expectations."
+        ],
+        "responses": [
+          "Dealing with constant pressure can be challenging. Let's explore techniques to manage stress during busy periods, set realistic expectations, and prioritize tasks effectively. What strategies have you tried so far, and how effective have they been?",
+          "Handling tight deadlines can be overwhelming. Let's discuss time management techniques and ways to break down tasks to make them more manageable. How do you currently approach deadlines?",
+          "The impact of work pressure on mental health is significant. We can explore coping strategies and stress management techniques to alleviate the strain. What specific aspects of work pressure are affecting your well-being?",
+          "Managing stress from high expectations is crucial. Let's work on setting realistic expectations, communicating effectively with superiors, and recognizing your achievements. Can you share a recent experience where work pressure felt particularly challenging?"
+        ]
+      },
+      {
+        "tag": "work_stress_boundaries",
+        "patterns": [
+          "Setting boundaries at work is difficult for me.",
+          "I have trouble saying no to additional tasks.",
+          "How can I establish healthy boundaries in the workplace?",
+          "I find it hard to say no to extra work.",
+          "Balancing tasks without overcommitting is challenging for me.",
+          "How do I establish and communicate boundaries effectively at work?"
+        ],
+        "responses": [
+          "Setting boundaries is crucial for managing work stress. We can work on strategies to assertively communicate your limits and prioritize self-care. What specific challenges do you face in setting boundaries at work?",
+          "Saying no to additional tasks is a common challenge. Let's explore ways to prioritize your workload and communicate effectively with colleagues. What types of tasks or situations do you often find difficult to decline?",
+          "Balancing tasks without overcommitting is important. We can develop strategies to assess your workload, set realistic expectations, and communicate your boundaries. What specific aspects of task management are causing stress?",
+          "Establishing and communicating boundaries is crucial for a healthy work-life balance. We can work on assertiveness techniques and effective communication skills to navigate these situations. Can you share a recent experience where setting boundaries felt difficult?"
+        ]
+      },
+      {
+        "tag": "insecurity_relationships_intro",
+        "patterns": [
+          "I feel insecure in my relationships.",
+          "Dealing with relationship insecurities is challenging for me.",
+          "How can I overcome feelings of insecurity in my relationships?",
+          "I want to cultivate a more secure attachment in my relationships.",
+          "Building a secure attachment seems challenging for me.",
+          "How can I develop a healthier attachment style in my relationships?",
+          "Overcoming relationship insecurities feels overwhelming.",
+          "I need guidance on where to start in addressing my insecurities.",
+          "What initial steps can I take to tackle my relationship insecurities?",
+          "I struggle with feeling secure in my relationships.",
+          "Dealing with insecurity in relationships is a constant challenge.",
+          "How do I build confidence and overcome relationship insecurities?"
+        ],
+        "responses": [
+          "I'm here to help you navigate through your relationship insecurities. It's common to feel this way, and we can work on strategies together. Can you share more about specific situations or triggers that make you feel insecure?",
+          "Cultivating a secure attachment is a valuable goal. We can explore attachment styles and work on creating a more secure and supportive connection. What aspects of your current attachment style do you find challenging, and where would you like to see improvement?",
+          "Taking steps to address relationship insecurities is commendable. We'll start by understanding the root causes and gradually work towards building a more secure foundation. Can you identify any specific patterns or thoughts that contribute to your feelings of insecurity?",
+          "Navigating relationship insecurities is a journey, and you're not alone in this. Let's explore strategies to boost your confidence and create a more secure foundation. Can you pinpoint specific situations or behaviors triggering your insecurities?"
+        ]
+      },
+      {
+        "tag": "insecurity_relationships_trust_issues",
+        "patterns": [
+          "Trust issues contribute to my relationship insecurities.",
+          "I find it hard to trust my partner.",
+          "How can I rebuild trust in my relationship?",
+          "Trust issues are impacting my relationship negatively.",
+          "It's hard for me to trust my partner completely.",
+          "What steps can I take to address trust issues in my relationship?",
+          "My partner has broken my trust, and I'm struggling to move past it.",
+          "Dealing with a breach of trust is affecting our relationship.",
+          "How can I cope with the aftermath of a betrayal and rebuild trust?",
+          "I want to learn how to trust my partner more.",
+          "Building trust feels like an uphill battle for me.",
+          "What strategies can I use to foster a more trusting relationship?",
+          "Trust issues from past relationships are affecting my current one.",
+          "I struggle with trusting my partner due to past experiences.",
+          "How can I prevent past trust issues from impacting my current relationship?",
+          "I'm afraid of being hurt again, and it's impacting my trust in relationships.",
+          "Fear of getting hurt is hindering my ability to trust.",
+          "How can I overcome the fear of being hurt and trust again?"
+
+        ],
+        "responses": [
+          "Rebuilding trust takes time and effort. Let's discuss specific trust issues you're facing and work on rebuilding trust through open communication and shared experiences. What incidents or behaviors have led to the erosion of trust in your relationship?",
+          "Overcoming the fear of being hurt is a gradual process. We'll work on building a foundation of emotional safety and explore techniques to manage fear. Can you share specific situations or triggers that intensify your fear of being hurt?",
+          "Past trust issues can linger, but we can work on strategies to prevent them from overshadowing your current relationship. Let's explore coping mechanisms and communication tools. Can you share more about how past trust issues are influencing your current relationship?",
+          "Fostering trust is a shared journey. Let's explore strategies to build trust gradually, such as open communication, setting boundaries, and mutual understanding. What specific areas or behaviors would you like to address to enhance the trust in your relationship?",
+          "Recovering from a breach of trust is challenging. We'll navigate through the aftermath together, focusing on healing and rebuilding trust. Can you describe your feelings and concerns following the breach of trust? This will help us tailor a plan for moving forward.",
+          "Addressing trust issues is a process, and I'm here to support you. Let's explore the root causes of these issues and work towards rebuilding trust through communication and understanding. Can you share specific incidents or patterns that have contributed to the trust challenges?"
+        ]
+      },
+      {
+        "tag": "insecurity_relationships_comparison_trap",
+        "patterns": [
+          "I often compare my relationship to others.",
+          "Social media makes me feel worse about my love life.",
+          "I can't help but measure my relationship against societal standards.",
+          "I find myself constantly comparing my partner to others.",
+          "Comparing my relationship to others is causing stress.",
+          "How can I break free from the habit of constantly comparing my relationship?",
+          "I feel pressure to live up to societal expectations in my relationship.",
+          "Societal expectations impact my perception of my relationship.",
+          "How can I navigate societal pressures and embrace my unique relationship?",
+          "Social media negatively influences my perception of my relationship.",
+          "Comparing my love life on social media is affecting my well-being.",
+          "How can I maintain a positive view of my relationship in the age of social media?",
+          "I feel inadequate because of the 'perfect' relationships I see online.",
+          "Idealized relationships online make me doubt my own.",
+          "How can I build confidence in my relationship despite online influences?",
+          "Comparing my relationship to others is affecting my partner too.",
+          "My partner is impacted by my comparison struggles.",
+          "How can we work together to overcome the challenges of comparison in our relationship?",
+          "I worry that my partner will leave because of my insecurities.",
+          "Fear of rejection due to my insecurities is affecting my relationship.",
+          "How can I overcome the fear that my partner will leave me?"
+        ],
+        "responses": [
+          "The comparison trap is common in relationships. Many people struggle with this. What specific aspects of comparison are affecting your relationship? Let's discuss healthier ways to approach self-perception and strengthen your connection with your partner.",
+          "Breaking free from the comparison trap is a journey. Let's explore self-awareness techniques and focus on the unique strengths and qualities of your relationship. Can you share specific instances or triggers that lead to comparison thoughts?",
+          "Navigating societal pressures is challenging. We'll work on strategies to redefine your relationship on your own terms. Can you share specific societal expectations that you find challenging, and how they influence your relationship?",
+          "Social media can impact perceptions. Let's explore ways to cultivate a positive view of your relationship, focusing on real connection rather than online representations. What specific aspects of social media comparison trouble you, and how would you like to address them?",
+          "Building confidence despite online influences is important. Let's discuss strategies to shift focus from external comparisons to internal strengths. Can you share specific situations or thoughts triggered by idealized online relationships that affect your confidence?",
+          "Working together is key to overcoming comparison challenges. Let's explore joint strategies to strengthen your bond and foster a positive perspective. Can you both share your thoughts on how comparisons affect your relationship, and what changes you'd like to see?",
+          "Overcoming the fear of rejection is a process. Let's address the root causes of your insecurities and work on building trust and open communication with your partner. What specific situations trigger these fears, and how would you like to approach them together?"
+        ]
+      },
+      {
+        "tag": "insecurity_relationships_positive_communication",
+        "patterns": [
+          "I want to improve positive communication with my partner.",
+          "Negativity affects our relationship.",
+          "How can we foster a more positive communication style in our relationship?",
+          "We often find ourselves in arguments, and it's affecting our relationship.",
+          "Arguments are becoming frequent, impacting our connection.",
+          "How can we navigate disagreements and maintain a positive communication style?",
+          "I struggle to express my needs without causing tension.",
+          "Expressing my needs leads to tension in our communication.",
+          "How can I communicate my needs in a positive and constructive way?",
+          "Negative feedback makes me defensive, affecting our communication.",
+          "Defensiveness arises when receiving negative feedback.",
+          "How can I handle negative feedback more positively in our relationship?",
+          "I want to bring more appreciation into our relationship.",
+          "Expressing appreciation feels challenging in our communication.",
+          "How can we incorporate more gratitude and appreciation into our conversations?",
+          "We struggle with effective problem-solving as a couple.",
+          "Problem-solving becomes challenging for us in communication.",
+          "How can we improve our problem-solving skills and communicate more effectively?",
+          "I want to create a more supportive environment in our relationship.",
+          "Our relationship lacks emotional support.",
+          "How can we build a more supportive and nurturing connection?",
+          "I want to establish better communication rituals in our relationship.",
+          "Our communication lacks consistent positive rituals.",
+          "How can we create meaningful communication rituals for a stronger connection?"
+        ],
+        "responses": [
+          "Promoting positive communication is vital. Let's explore techniques for active listening, expressing gratitude, and framing discussions positively. What specific communication challenges do you and your partner face?",          "Navigating disagreements positively is essential. Let's work on constructive ways to resolve conflicts, such as using 'I' statements and finding common ground. What specific issues tend to lead to arguments in your relationship?",
+          "Expressing needs positively is crucial. We can explore assertiveness techniques and how to communicate openly without creating tension. What specific needs do you find challenging to express to your partner?",
+          "Handling feedback positively is essential. Let's discuss ways to receive and provide constructive criticism without defensiveness. Can you share instances where negative feedback has led to communication challenges?",
+          "Expressing appreciation can be a wonderful goal. We can explore activities that foster gratitude and discuss how to regularly acknowledge each other. What specific actions or qualities would you like to appreciate more in your partner?",
+          "Improving problem-solving can be a positive step. Let's explore techniques such as brainstorming and compromise to find solutions that work for both of you. Can you share a specific issue that has been challenging to resolve together?",
+          "Creating a supportive environment is key. Let's discuss ways to enhance emotional support, such as active listening, empathy, and validating each other's feelings. What specific areas in your relationship do you feel could benefit from increased support?",
+          "Establishing communication rituals can be a positive initiative. Let's explore activities like regular check-ins, date nights, or shared hobbies to strengthen your bond. What specific rituals would you like to incorporate into your communication routine?"
+        ]
+      },
+      {
+        "tag": "insecurity_relationships_relationship_goals",
+        "patterns": [
+          "Setting relationship goals feels overwhelming.",
+          "I'm unsure about the future of my relationship.",
+          "How can we work together to set healthy relationship goals?",
+          "Need help setting relationship goals.",
+          "Feeling lost about our relationship's future.",
+          "Overwhelmed by relationship goal-setting.",
+          "Uncertain about where my relationship is going.",
+          "Can we work on healthy relationship goals?",
+          "Struggling with defining our relationship's path.",
+          "Looking for advice on setting goals together.",
+          "Feeling anxious about relationship uncertainties.",
+          "Need guidance on making goals more manageable.",
+          "Unsure how to start with relationship goals."
+        ],
+        "responses": [
+          "Setting relationship goals is a constructive step. We can break down these goals into manageable steps and discuss the values and expectations you have for your relationship. What aspects of setting goals for your relationship feel overwhelming?",
+          "I understand that setting relationship goals can be overwhelming. Let's break it down into smaller, more manageable steps. Start by discussing short-term goals that align with both of your values. What specific aspects are causing stress?",
+          "It's common to feel unsure about the future of a relationship. To gain clarity, try scheduling a calm, open conversation with your partner. Share your thoughts and listen to theirs. What specific uncertainties are on your mind, and how can I assist you in addressing them?",
+          "I hear you're feeling overwhelmed about relationship goal-setting. Let's create a step-by-step plan. Begin by identifying one shared value and setting a small goal around it. What aspects are challenging for you, and how can we make this process more manageable?",
+          "Feeling uncertain about your relationship's future is completely normal. To address this, let's explore your concerns together. Consider creating a 'vision board' for your relationship, visualizing the future you both desire. What specific aspects are causing uncertainty?",
+          "Absolutely, working on healthy relationship goals is important. Let's collaborate on defining those goals. Start by discussing what 'healthy' means for both of you. What are your initial thoughts on what makes a goal 'healthy' for your relationship, and how can we implement them?",
+          "It sounds like you're struggling to define the path of your relationship. Let's explore your expectations and values to set meaningful goals. Consider writing down your individual expectations and finding common ground. What specific challenges are you facing in defining your relationship's direction?",
+          "Sure, let's work together on setting relationship goals. Begin by identifying areas you'd like to focus on. Consider creating a shared calendar for relationship-focused activities. What are some priorities for your relationship, and how can we turn them into achievable goals?",
+          "Feeling anxious about relationship uncertainties is understandable. Let's delve into your concerns and work on strategies to ease that anxiety. Consider creating a list of positive aspects in your relationship. What specific thoughts or situations trigger your anxiety, and how can we address them?",
+          "I hear you need guidance on making relationship goals more manageable. We can break them down into smaller tasks and create a plan. Start by discussing each other's individual goals and finding ways to support them. What aspects of goal-setting do you find challenging, and how can we simplify them?",
+          "Of course, let's explore how to start with relationship goals. What are some priorities for your relationship? Consider creating a 'relationship bucket list' together. How can we turn these ideas into achievable goals?"
+        ]
+      },
+      {
+        "tag": "insecurity_relationships_quality_time",
+        "patterns": [
+          "I struggle to spend quality time with my partner.",
+          "Balancing time for my relationship is challenging.",
+          "How can I prioritize quality time in my relationship?",
+          "My busy schedule leaves little time for my relationship.",
+          "I feel guilty about not spending enough quality time with my partner.",
+          "What activities can help improve the quality of time spent with my partner?"
+        ],
+        "responses": [
+          "Prioritizing quality time is essential. Let's explore strategies to balance your commitments and create meaningful experiences with your partner. What specific challenges do you face in allocating quality time for your relationship?",
+          "It's common to face challenges in balancing time for relationships. We can work on creating a schedule that includes dedicated time for your partner. What aspects of your busy schedule are making it challenging for you?",
+          "I understand the difficulty in finding quality time. Let's discuss realistic ways to incorporate meaningful moments into your routine. What activities or routines are currently hindering your ability to spend quality time with your partner?",
+          "Feeling guilty about time allocation is understandable. Together, we can explore ways to manage your schedule and carve out moments for your relationship. What specific thoughts or situations trigger the feeling of guilt?",
+          "Balancing time for relationships can be tricky. Let's identify your priorities and explore time management techniques to ensure you allocate quality time for your partner. What specific aspects of your schedule make it challenging for you?",
+          "It's challenging when a busy schedule affects your relationship. Let's work on strategies to enhance the quality of the time you do spend together. What activities or changes would you like to implement to improve the quality of your time with your partner?"
+        ]
+      },
+      {
+        "tag": "insecurity_relationships_self_discovery",
+        "patterns": [
+          "I want to rediscover myself within my relationship.",
+          "How can I maintain my individuality in a romantic relationship?",
+          "What steps can I take for self-discovery while being in a relationship?",
+          "I feel like I've lost touch with my interests since being in a relationship.",
+          "Balancing personal growth and being in a relationship feels challenging.",
+          "Can you provide tips for maintaining a sense of self in a committed relationship?",
+          "I'm afraid of losing my identity in my relationship."
+        ],
+        "responses": [
+          "Maintaining individuality in a relationship is crucial. We can discuss ways to nurture your personal interests and growth while being part of a couple. What aspects of self-discovery are you interested in exploring within your relationship?",
+          "Rediscovering yourself is a positive journey. Let's explore activities that align with your passions and discuss how to integrate them into your relationship. What specific interests or hobbies would you like to reconnect with?",
+          "Balancing personal growth and a relationship is common. Let's work on a plan to allocate time for self-discovery activities that align with your values. What specific challenges do you face in maintaining your individuality?",
+          "It's normal to feel a shift in interests. Let's explore ways to reintegrate your passions into your life and relationship. What specific hobbies or activities have you felt disconnected from since being in a relationship?",
+          "Maintaining a sense of self in a relationship is essential. We can explore strategies to communicate your needs and priorities to your partner. What specific aspects of balancing personal growth and your relationship feel challenging?",
+          "Fear of losing your identity is valid. Let's discuss techniques to communicate your concerns with your partner and create a supportive environment for personal growth. What specific situations trigger this fear for you?"
+        ]
+      },
+      {
+        "tag": "perfectionism_intro",
+        "patterns": [
+          "I struggle with perfectionism.",
+          "Perfectionism is affecting my well-being.",
+          "How can I overcome perfectionistic tendencies?",
+          "Perfectionism is making it hard for me to complete tasks.",
+          "I find myself paralyzed by the need for perfection.",
+          "How can I break free from the cycle of perfectionism affecting my work?",
+          "I set unrealistic standards for myself due to perfectionism.",
+          "Perfectionism leads me to set impossibly high standards.",
+          "How can I set more realistic and achievable goals without succumbing to perfectionism?",
+          "Perfectionism is affecting my relationships.",
+          "I struggle to connect with others because of my perfectionistic tendencies.",
+          "How can I maintain healthier relationships despite my perfectionism?",
+          "Perfectionism is taking a toll on my mental health.",
+          "I feel anxious and stressed due to perfectionistic tendencies.",
+          "How can I manage my mental health while dealing with perfectionism?",
+          "I compare myself to others constantly because of perfectionism.",
+          "Perfectionism fuels my constant comparison to others.",
+          "How can I stop comparing myself to others and embrace my uniqueness?"
+        ],
+        "responses": [
+          "Dealing with perfectionism is a common challenge. Let's explore strategies to overcome perfectionistic tendencies and foster a healthier mindset. Can you share specific situations where perfectionism has impacted you?",
+          "The comparison trap is a common aspect of perfectionism. Let's work on building self-compassion and embracing your individual strengths. Can you share situations where comparisons have been particularly challenging for you?",
+          "Caring for your mental health is crucial. Let's explore coping mechanisms and relaxation techniques to alleviate stress. Can you identify specific triggers or situations where perfectionism has heightened your anxiety?",
+          "Perfectionism can impact relationships. Let's work on communication skills and ways to navigate social interactions without excessive pressure. Can you share a specific situation where perfectionism has influenced your relationships?",
+          "Setting realistic goals is essential. Let's explore ways to establish achievable standards that still challenge you positively. Can you provide an example of a goal where perfectionism has affected your approach?",
+          "The struggle with perfectionism is real. Let's work on practical steps to complete tasks without excessive pressure. Can you share a specific task or project where perfectionism has hindered your progress?"
+        ]
+      },
+      {
+        "tag": "perfectionism_negative_impact",
+        "patterns": [
+          "Perfectionism is causing stress in my life.",
+          "I feel overwhelmed by the need to be perfect.",
+          "How can I manage the negative impact of perfectionism on my mental health?",
+          "I'm finding it hard to relax because perfectionism is causing constant stress.",
+          "The pressure to be perfect is affecting my daily life and well-being.",
+          "Dealing with perfectionism is making it challenging to maintain a positive mindset.",
+          "I feel weighed down by the constant need for perfection, and it's impacting my stress levels.",
+          "The pursuit of perfection is leaving me feeling mentally drained.",
+          "I'm struggling with the negative impact of perfectionism on my mental health.",
+          "The overwhelming need to be perfect is taking a toll on my emotional well-being.",
+          "Perfectionism is creating a cycle of stress that I find difficult to break.",
+          "I feel mentally exhausted due to the continuous pressure to meet unrealistic standards.",
+          "Managing the negative effects of perfectionism on my mental health has become a real challenge."
+        ],
+        "responses": [
+          "Perfectionism can indeed be stressful. Let's work on coping mechanisms and stress reduction techniques to manage its impact on your well-being.",
+          "I hear you, and it's important to address the stress caused by perfectionism. Let's explore relaxation techniques like deep breathing and mindfulness.",
+          "Feeling overwhelmed by the need to be perfect is a common struggle. Let's work on setting realistic expectations and embracing self-compassion.",
+          "The impact of perfectionism on your mindset is something we can navigate together. Let's focus on building a positive outlook through gratitude exercises. What are some things you're grateful for in your life?",
+          "Constant pressure for perfection can indeed affect your stress levels. Let's develop coping mechanisms like time management and prioritization.",
+          "Struggling with perfectionism can be mentally draining. Let's explore self-care practices to rejuvenate your mind. What activities bring you joy and relaxation?",
+          "Acknowledging the negative impact of perfectionism is a crucial step. Let's work on self-reflection exercises to understand the root causes. What patterns or thoughts contribute to this stress for you?",
+          "The need for perfection can impact emotional well-being. Let's focus on building resilience through positive affirmations. What strengths or qualities about yourself can we celebrate?",
+          "Breaking the cycle of stress caused by perfectionism is a process. Let's discuss time-management strategies and setting achievable goals. What specific tasks or situations create this cycle for you?",
+          "Feeling mentally exhausted due to perfectionism is tough. Let's explore ways to balance high standards with self-compassion.",
+          "Managing the negative effects of perfectionism requires personalized strategies. Let's create a plan that addresses your unique challenges. What changes would you like to see in your approach to perfectionism?"
+        ]
+      },
+      {
+        "tag": "perfectionism_overcoming_strategies",
+        "patterns": [
+          "I want to overcome my perfectionistic mindset.",
+          "What strategies can help me break free from perfectionism?",
+          "How can I shift to a more balanced and realistic perspective?",
+          "Overcoming my perfectionistic mindset is a priority for me.",
+          "I'm determined to break free from the grip of perfectionism.",
+          "I want to shift my perspective and embrace a more balanced mindset.",
+          "It's time to let go of my perfectionistic tendencies.",
+          "I'm ready to explore strategies that can help me overcome perfectionism.",
+          "Breaking free from perfectionism is a goal I'm committed to achieving.",
+          "I want to develop a healthier and more realistic outlook on life.",
+          "Struggling with perfectionism, I'm eager to adopt new coping strategies.",
+          "I'm seeking guidance on how to shift towards a more balanced perspective.",
+          "Overcoming perfectionism is a journey I'm ready to embark on."
+        ],
+        "responses": [
+          "Overcoming perfectionism is a process. Let's explore self-compassion, setting realistic goals, and challenging negative thoughts. What specific aspects of perfectionism would you like to address first?",
+          "It's great that you're ready to explore strategies. We can work on building resilience and adopting a growth mindset. What specific aspects of your life do you feel perfectionism is hindering?",
+          "Shifting to a more balanced and realistic perspective is a worthy goal. Consider focusing on progress, not perfection.",
+          "Your commitment to overcoming perfectionism is a positive step. We can explore setting realistic expectations and embracing imperfections.",
+          "It's great that you want to shift to a more balanced perspective. One strategy is to challenge all-or-nothing thinking. Let's discuss situations where adopting a more flexible mindset could be beneficial.",
+          "Breaking free from perfectionism is a commendable goal. We can work on fostering self-compassion and reframing negative thoughts.",
+          "I understand how challenging perfectionism can be. Let's explore strategies together. Consider setting realistic goals and celebrating progress, no matter how small."
+        ]
+      },
+      {
+        "tag": "perfectionism_self_compassion",
+        "patterns": [
+          "Being kind to myself feels challenging.",
+          "Self-compassion is a struggle for me.",
+          "How can I practice self-love and acceptance in the face of perfectionism?"
+        ],
+        "responses": [
+          "Practicing self-compassion is key. Treat yourself with the kindness you would offer a friend. Let's explore techniques to challenge self-critical thoughts and nurture a more positive self-image. What specific challenges do you face in being kind to yourself?"
+        ]
+      },
+      {
+        "tag": "perfectionism_fear_failure",
+        "patterns": [
+          "I fear failure due to perfectionism.",
+          "Perfectionism is holding me back from trying new things.",
+          "How can I overcome the fear of failure associated with perfectionism?",
+          "My fear of failure is getting in the way of pursuing my goals. How can I work through this perfectionism and move forward?",
+          "Perfectionism is making it hard for me to take risks.",
+          "I've been avoiding challenges due to my fear of failure.",
+          "I fear that any mistake is a failure, and it's holding me back.",
+          "Perfectionism is impacting my ability to try new things.",
+          "I find myself hesitating to try new activities because of the fear of failure.",
+          "The fear of failure is overwhelming, and I think perfectionism is at the root of it.",
+          "I've been stuck in a cycle of avoiding anything that might lead to failure.",
+          "Perfectionism is making it difficult for me to step out of my comfort zone.",
+          "My perfectionistic tendencies are hindering my willingness to take on new challenges."
+        ],
+        "responses": [
+          "The fear of failure is a common aspect of perfectionism. Let's work on reframing failure, setting realistic expectations, and embracing the learning process. What specific situations trigger your fear of failure, and how would you like to approach them differently?",
+          "Overcoming a perfectionistic mindset is a process. Let's focus on setting realistic expectations, celebrating progress over perfection, and embracing mistakes as opportunities for growth.",
+          "Breaking free from perfectionism is a journey. We can explore strategies like reframing negative thoughts, setting achievable goals, and recognizing that mistakes are a natural part of learning.",
+          "Shifting to a more balanced perspective takes time, but we can start by acknowledging your achievements, no matter how small, and embracing imperfections.",
+          "Let's work together on strategies to reframe your thoughts about failure. We can explore self-compassion, focusing on the process rather than the outcome, and developing a growth mindset.",
+          "Overcoming a fear of failure involves cultivating self-compassion and understanding that mistakes are a natural part of life.",
+          "It's common to fear failure, but we can develop coping mechanisms to navigate through it. Let's explore mindfulness techniques, setting realistic expectations, and building a supportive mindset.",
+          "I'm here to support you in overcoming the fear of failure. Together, we can explore strategies like visualization, breaking down large goals into smaller steps, and acknowledging your strengths.",
+          "To shift to a more balanced perspective, we can work on challenging negative thoughts, setting achievable goals, and recognizing the value of learning from mistakes.",
+          "Overcoming a perfectionistic mindset is about embracing progress, not perfection. Let's explore strategies to reframe your thoughts, set realistic expectations, and build resilience.",
+          "Breaking free from perfectionism involves developing a healthier relationship with success and failure. We can work on strategies like self-reflection, setting flexible goals, and celebrating achievements along the way."
+        ]
+      },
+      {
+        "tag": "perfectionism_personal_growth",
+        "patterns": [
+          "I want to use perfectionism for personal growth.",
+          "How can I turn my perfectionistic tendencies into opportunities for growth?",
+          "Is there a positive side to perfectionism that I can harness?",
+          "How can I leverage my perfectionism for self-improvement?",
+          "I want to turn my perfectionistic tendencies into positive growth opportunities.",
+          "Are there ways to use perfectionism as a motivation for personal development?",
+          "I believe there's potential for growth within my perfectionistic tendencies.",
+          "Can perfectionism be a catalyst for positive change in my life?",
+          "I want to use my perfectionism as a tool for personal development.",
+          "I'm seeking ways to turn my pursuit of perfection into personal growth.",
+          "How can I use my perfectionistic nature to foster positive changes?",
+          "Are there aspects of perfectionism that can contribute to my personal development?",
+          "Can perfectionism be a positive force in my journey of personal development?",
+          "I want to redirect my perfectionistic tendencies towards personal growth.",
+          "How can I use my perfectionism as a tool for continuous self-improvement?"
+        ],
+        "responses": [
+          "Using perfectionism for personal growth is a constructive approach. Let's explore how you can channel your drive for perfection into achievable goals and continuous improvement. What specific areas of personal growth are you interested in?",
+          "Perfectionism can indeed be a positive force for personal development. Let's work on strategies to channel your drive into meaningful goals, fostering resilience and adaptability along the way.",
+          "Transforming your pursuit of perfection into personal growth is a great endeavor. Let's explore how we can integrate your high standards into a balanced approach to self-improvement. What specific areas of personal development do you see as opportunities for growth?",
+          "Absolutely, there's potential for positive change within perfectionism. Let's discuss how we can channel your desire for excellence into areas that align with your personal development goals. What specific goals or skills do you aim to enhance through this process?",
+          "Leveraging your perfectionism for personal growth is a commendable goal. Let's explore strategies to harness your high standards as motivation, set realistic goals, and foster a mindset of continuous improvement."
+        ]
+      },
+      {
+        "tag": "closing",
+        "patterns": [
+          "Thanks for talking with me. I appreciate it.",
+          "This has been helpful. Thank you.",
+          "I feel better discussing this. Thank you, chatbot."
+        ],
+        "responses": [
+          "You're welcome! I'm here whenever you need to talk. Take care!"
+        ]
+      },
+      {
+        "tag":"good bye",
+        "patterns":[
+          "See you later",
+          "Nice talking you, bye",
+          "It was nice talking you", 
+          "Good bye",
+          "Later",
+          "I will talk to you later"
+        ],
+        "responses":[
+          "Thank you, <br>Good Bye,<br> Hope to see you soon..."
+        ]
+      }
+    ]
+  }
+  
